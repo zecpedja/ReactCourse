@@ -6,11 +6,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 
   function App() {
-  const name = "John Doe";
-  const profession = "Full Stack Developer";
-  const projects = [
-    { name: "Project 1", description: "Description of Project 1", link: "#" },
-    { name: "Project 2", description: "Description of Project 2" , link: "#"}]
+
   return (
     <div className="App">
       <Header/>
