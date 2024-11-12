@@ -26,15 +26,14 @@ import './App.css'
       {/* projects section */}
       <section id='projects' className='projects-section'>
         <h2>Projects</h2>
-        <ul>
+        <div className='projects-list'>
           {projects.map((project, index) => (
-            <li key={index}>
-              <h3>{project.name}</h3>
-              <p>{project.description}</p>
-              <a href={project.link}>View Project</a>
-            </li>
+            <div key={index} className='project-item'>
+              <h3>{project.title}</h3>
+              <h3>{project.description}</h3>
+            </div>
           ))}
-        </ul>
+        </div>
       </section>
       {/* contact section */}
       <section id='contact' className='contact-section'>
