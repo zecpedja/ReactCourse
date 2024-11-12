@@ -24,6 +24,23 @@ import './App.css'
         <p>Hello! I'm {name}, a {profession}.</p>
       </section>
       {/* projects section */}
+      <section id='projects' className='projects-section'>
+        <h2>Projects</h2>
+        <ul>
+          {projects.map((project, index) => (
+            <li key={index}>
+              <h3>{project.name}</h3>
+              <p>{project.description}</p>
+              <a href={project.link}>View Project</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+      {/* contact section */}
+      <section id='contact' className='contact-section'>
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out!</p>
+      </section>
     </div>
   
   )
