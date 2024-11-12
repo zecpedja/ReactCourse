@@ -38,8 +38,12 @@ import './App.css'
       {/* contact section */}
       <section id='contact' className='contact-section'>
         <h2>Contact Me</h2>
-        <p>Feel free to reach out!</p>
+        <p>Feel free to reach out! My mail <a href="mailto:john.doe@me.com">john.doe@me.com</a></p>
       </section>
+      {/* footer section */}
+      <footer className='footer'>
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+      </footer>
     </div>
   
   )
